@@ -3,7 +3,7 @@ import todosSlice from "./todosSlice";
 
 const store = configureStore({
     reducer: {
-        todos: todosSlice,
+        todosSelector: todosSlice, // todos es un nombre random que de ahí pasa el selector
     },
 });
 
